@@ -111,7 +111,8 @@ Net. ipv4. conf. eth0. rp_ Filter=0
 
 ## 4. Using with python3.10
 
-python code need cv2 and numpy library
+python code need cv2 and numpy library.
+
 after installation use blew command:
 ```
 sudo python3.10 OpenCV_Demo.py
