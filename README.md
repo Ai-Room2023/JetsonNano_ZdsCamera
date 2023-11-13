@@ -2,12 +2,14 @@
 setting up zds gige camera with jetson nano board
 
 ## 1、install: 
-connect the camera--> enter the command 
-'sudo ./install.sh'-->
+connect the camera --> enter blew command 
+'''
+sudo ./install.sh
+'''
 			
 		
 ## 2、sdk introduction:
--------------------------------
+
 -- democam2                    DVP2 demo
 -- Demo_arm64                    simple demo executalbe program，no UI
 -- OpenCV_Demo.py             Python Demo
