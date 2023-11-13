@@ -1,14 +1,22 @@
 # JetsonNano_ZdsCamera
 setting up zds gige camera with jetson nano board
 
-## 1、install: 
+## 1. convert the files into executable format:
+in filter directory:
+```
+sudo chmod a+wx dsfilter.sh &
+sudo chmod a+wx install_driver.sh &
+sudo chmod a+wx dsfilter.sh
+```
+
+## 2. install: 
 connect the camera --> enter blew command 
 ```
 sudo ./install.sh
 ```
 			
 		
-## 2、sdk introduction:
+## 3. sdk introduction:
 
 -- democam2                    DVP2 demo
 -- Demo_arm64                    simple demo executalbe program，no UI
