@@ -1,7 +1,13 @@
 # JetsonNano_ZdsCamera
 setting up zds gige camera with jetson nano board
 
-## 1. convert the files into executable format:
+## 1. wiring
+
+![photo7743702569](https://github.com/Ai-Room2023/JetsonNano_ZdsCamera/assets/140303548/57ad0b3b-b112-4e4c-9f87-3ceadfcafd2a)
+![photo7743702420](https://github.com/Ai-Room2023/JetsonNano_ZdsCamera/assets/140303548/f7b384f2-36d6-41ca-97a2-39ccb372d640)
+
+
+## 2. convert the files into executable format
 
 enter command:
 ```
@@ -15,14 +21,14 @@ sudo chmod a+wx dsfilter.sh
 ```
 
 
-## 2. install: 
+## 3. install
 connect the camera --> enter blew command 
 ```
 sudo ./install.sh
 ```
 			
 		
-## 3. sdk introduction:
+## 4. sdk introduction:
 
 -- democam2                    DVP2 demo
 -- Demo_arm64                    simple demo executalbe program，no UI
@@ -50,7 +56,7 @@ Execute the following command as root:
 /Sbin/ifconfig<network_ Interface_ ID>mtu SIZE
 
 ```
-for example:
+For example:
 ```
 sudo /sbin/ifconfig eth0 mtu 9000
 ```
