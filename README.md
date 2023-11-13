@@ -3,9 +3,9 @@ setting up zds gige camera with jetson nano board
 
 ## 1、install: 
 connect the camera --> enter blew command 
-'''
+```
 sudo ./install.sh
-'''
+```
 			
 		
 ## 2、sdk introduction:
