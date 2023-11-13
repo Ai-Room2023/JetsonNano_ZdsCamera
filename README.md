@@ -2,12 +2,18 @@
 setting up zds gige camera with jetson nano board
 
 ## 1. convert the files into executable format:
-in filter directory:
+
+enter command:
+```
+sudo chmod a+wx install.sh
+```
+then in filter directory:
 ```
 sudo chmod a+wx dsfilter.sh &
 sudo chmod a+wx install_driver.sh &
-sudo chmod a+wx dsfilter.sh
+sudo chmod a+wx dsfilter.sh 
 ```
+
 
 ## 2. install: 
 connect the camera --> enter blew command 
@@ -43,6 +49,10 @@ Execute the following command as root:
 
 /Sbin/ifconfig<network_ Interface_ ID>mtu SIZE
 
+```
+for example:
+```
+sudo /sbin/ifconfig eth0 mtu 9000
 ```
 
 Among them, network_ Interface_ ID is the name of the network interface card (NIC)
